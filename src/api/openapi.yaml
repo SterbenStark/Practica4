@@ -26,7 +26,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Book'
-      x-swagger-router-controller: Default
+      x-swagger-router-controller: Default 
     put:
       summary: Update book information
       operationId: booksBookIdPUT
@@ -190,7 +190,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Publisher'
-      x-swagger-router-controller: Default
+      x-swagger-router-controller: Default 
     put:
       summary: Update publisher information
       operationId: publishersPublisherIdPUT
@@ -296,7 +296,7 @@ components:
         author: SterbenStark
         nationality: American
         birth_year: "1995"
-        fields: "Distributed computing, Operating Systems"
+        fields: Distributed computing, Operating Systems
         books: "5"
         authorId: author3
     Publisher:
