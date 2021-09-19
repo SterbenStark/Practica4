@@ -139,7 +139,7 @@ paths:
   /authors/{authorId}/books:
     get:
       summary: Return author of books by ID.
-      operationId: booksBookIdGET
+      operationId: booksauthorIdGET
       parameters:
       - name: authorId
         in: path
