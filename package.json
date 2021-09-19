@@ -6,15 +6,13 @@
   "scripts": {
     "start": "nodemon src/index.js"
   },
-  "keywords": [
-    "swagger"
-  ],
+  "keywords": ["swagger"],
   "license": "Unlicense",
   "devDependencies": {
     "connect": "^3.2.0",
     "js-yaml": "^3.3.0",
-    "nodemon": "^2.0.12",
-    "oas3-tools": "^2.2.3"
+    "oas3-tools": "^2.2.3",
+    "nodemon": "^2.0.12"
   },
   "engines": {
     "node": "14.x"
