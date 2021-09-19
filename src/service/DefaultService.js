@@ -12,20 +12,22 @@ const loadBooks = () => {
     });
 }
 
+loadBooks();
+
 const loadAuthors = () => {
     fs.readFile(__dirname + '/' + 'authors.json', 'utf8', (err, data) => {
-        books = JSON.parse(data)
+        authors = JSON.parse(data)
     });
 }
+
+loadAuthors();
 
 const loadPublishers = () => {
     fs.readFile(__dirname + '/' + 'publishers.json', 'utf8', (err, data) => {
-        books = JSON.parse(data)
+        publishers = JSON.parse(data)
     });
 }
 
-loadBooks();
-loadAuthors();
 loadPublishers();
 
 const saveBooks = () => {
